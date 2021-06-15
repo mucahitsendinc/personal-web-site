@@ -1,0 +1,102 @@
+body{
+	background-color: white;
+}
+#menu{
+	height: 10px;
+	background-color: orange;
+	width: 100% !important;
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+}
+#menu ul{
+	list-style: none;
+
+}
+#menu ul li{
+	background-color: orange;
+	padding:10px 10px 10px 10px;
+	text-decoration: none;
+	font-size:18px;
+	color:black;
+	cursor: pointer;
+	float: left;
+	transition: 600ms all;
+}
+#menu ul li:hover{
+	transition: scale(1.5);
+	color:white;
+	font-weight: bold;
+	font-size:24px;
+	padding-top:40px;
+	padding-bottom: 40px;
+	background-color: 10px;
+}
+#icerik{
+	margin-top:10vh;
+}
+#onizleme{
+	width: 100%;
+	height: 500px;
+	border: 6px solid orange;
+	overflow: scroll;
+}
+form input{
+	width: 100%;
+	font-size:20px;
+	border:4px solid orange;
+	text-align: center;
+}
+form #yazi{
+	height: 120px;
+	overflow: scroll;
+	font-size:18px;
+	text-align: left;
+	width: 100%;
+	border:4px solid orange;
+	color:black;
+}
+.itemler{
+	margin-bottom: 60px;
+	width: 100%;
+}
+.itemler ul{
+	background-color: orange;
+	list-style: none;
+	position: absolute;
+	width: auto;
+	height: auto;
+}
+.itemler ul li{
+	padding: 10px;
+	background-color: orange;
+	color:white;
+	float: left;
+	transition: 600ms all;
+	font-size:20px;
+	cursor: pointer;
+}
+.itemler ul li:hover{
+	padding: 20px 20px 20px 20px;
+	color:black;
+	border: 3px solid orange;
+	background-color: white;
+	font-size:14px;
+	font-weight: bold;
+	transition: scale(1.5);
+}
+#eklenecek{
+	display: none;
+}
+#eklenecek div input{
+	border:5px solid red;
+	margin-bottom: 0px;
+}
+#eklenecek input{margin-bottom:30px;}
+#resimekle{display:none;}
+#paragrafekle{display:none;}
+#baslikekle{display:none;}
+#linkyazisilink{display:none;}
+#linkyazisimetin{display:none;}
+#videoyazisi{display:none;}

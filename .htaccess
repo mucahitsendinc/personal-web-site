@@ -1,0 +1,10 @@
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone America/New_York
+ErrorDocument 400 http://mucahitcreator.rf.gd/konularim/error.php
+ErrorDocument 401 http://mucahitcreator.rf.gd/konularim/error.php
+ErrorDocument 403 http://mucahitcreator.rf.gd/konularim/error.php
+ErrorDocument 404 http://mucahitcreator.rf.gd/konularim/error.php
+ErrorDocument 503 http://mucahitcreator.rf.gd/konularim/error.php
+php_flag magic_quotes 1
+php_flag magic_quotes_gpc 1
